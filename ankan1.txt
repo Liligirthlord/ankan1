@@ -1,0 +1,14 @@
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Skriv in förnamn: ");
+            string str1 = Console.ReadLine();
+            Console.Write("Skriv in efternamn: ");
+            string str2 = Console.ReadLine();
+            Console.WriteLine( str1 + " " +str2 );
+        }
+    }
+}
